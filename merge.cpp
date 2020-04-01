@@ -29,7 +29,6 @@ void merge_sort(vector<int> &data, vector<int> &left, vector<int> &right)
         k++; i++;
     }
 }
-
 void merge(vector<int> &data)
 {
     if (data.size() <= 1)
