@@ -1,5 +1,5 @@
 #include <iostream>
-#include "selection.h"
+#include "bubble.h"
 
 using namespace std;
 
@@ -10,7 +10,7 @@ int main()
     for (int i = 0; i < vec.size(); i++){
       cout << vec[i] << " ";
     }
-    selectionSort(vec);
+    bubble(vec);
 
     cout << "\n The sorted vector is: \n"; 
     for (int i = 0; i < vec.size(); i++){
