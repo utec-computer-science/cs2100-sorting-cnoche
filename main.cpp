@@ -1,5 +1,5 @@
 #include <iostream>
-#include "heap.h"
+#include "quick.h"
 
 using namespace std;
 
@@ -11,7 +11,7 @@ int main()
       cout << vec[i] << " ";
     }
     float n = vec.size();
-    heapSort(vec, n);
+    quickSort(vec, 0, n-1);
 
     cout << "\n The sorted vector is: \n"; 
     for (int i = 0; i < vec.size(); i++){
